@@ -12,3 +12,7 @@ let level; // any type
 function render(document: any) {
   console.log(document);
 }
+
+// ARRAYS
+
+let numbers: number[] = [1, 2, 3];
