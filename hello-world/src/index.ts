@@ -14,5 +14,8 @@ function render(document: any) {
 }
 
 // ARRAYS
-
 let numbers: number[] = [1, 2, 3];
+
+// TUPLES
+let user: [number, string] = [1, "sage"];
+user.push(1); // gaps in typescript
