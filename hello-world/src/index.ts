@@ -44,3 +44,5 @@ const enum size {
 
 let mysize: size = size.Medium;
 console.log(mysize);
+
+// FUNCTIONS
