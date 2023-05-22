@@ -51,4 +51,4 @@ function calculateTax(income: number, taxYear = 2022): number {
   return 1;
 }
 
-calculateTax(100000);
+calculateTax(100000); // fixed inputs
