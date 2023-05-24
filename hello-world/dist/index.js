@@ -25,4 +25,6 @@ function calculateTax(income, taxYear = 2022) {
     return 1;
 }
 calculateTax(100000);
+let employee = { id: 1 };
+employee.name = "Sage";
 //# sourceMappingURL=index.js.map
