@@ -131,3 +131,11 @@ let customer = getCustomer(0);
 // Optional property access operator
 
 console.log(customer?.birthday?.getFullYear());
+
+// Optional element access operator
+
+// customer?.[0]
+
+// Optional call
+let log: any = null;
+log?.("a");
