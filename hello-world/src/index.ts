@@ -61,3 +61,16 @@ let employee: {
 } = { id: 1, retire: (date: Date) => console.log(date) }; // ?: optional
 
 employee.name = "Sage";
+
+// ADVANCED TYPES
+
+// TYPE ALIASES
+type Employee = {
+  readonly id: number;
+  name?: string;
+  retire: (date: Date) => void;
+};
+
+let employee2: Employee = { id: 1, retire: (date: Date) => console.log(date) }; // ?: optional
+
+employee2.name = "Sage";
