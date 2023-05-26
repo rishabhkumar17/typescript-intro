@@ -110,7 +110,7 @@ type Metric = "cm" | "inch";
 // NULLABLE TYPES
 function greet(name: string | null | undefined) {
   if (name) console.log(name);
-  else console.log("Hey!");
+  else console.log("Heyy!");
 }
 
 greet(null);
